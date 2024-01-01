@@ -1,0 +1,1122 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: logofont;
+    src: url(/fonts/FontsFree-Net-Balboa-W01-Bold.woff2);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(/fonts/Lionel\ Text\ Genuine\ Regular.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    position: absolute;
+    
+}
+
+#workingarea{
+    width: 95%;
+    min-height: 100vh;
+    margin: auto;
+    
+    /* eposition: absolute; */
+    
+}
+
+nav{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 4vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: white;
+    border-radius: 4vw;
+    margin: 1vw 0vw;
+    padding: 2.5vw 2.5vw;
+}
+
+
+
+#navleft h3{
+    font-family: logofont;
+    font-size: 3vw;
+    text-transform: uppercase;
+    
+}
+
+
+#navright{
+    width: 45%;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+#navright h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#page1{
+   
+    width: 100%;
+    min-height: 100vh;
+    margin: 1vw 0vw;
+    padding: 2vw 3vw;
+    background-color: white;
+    border-radius: 3.5vw;
+}
+
+#uppertext{
+    width: 100%;
+    height: 100%;
+  
+    font-family: logofont;
+}
+
+#uppertext h3{
+    
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+#line{
+    width: 100%;
+    margin: auto;
+    height: 2px;
+    background-color: black;
+    margin: 1vw 0vw;
+}
+
+#middletext{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 30vw;
+    
+}
+
+#middleleft{
+    width: 95%;
+    height: 100%;
+    overflow: hidden;
+
+   
+}
+
+#middleheading{
+    overflow: hidden;
+}
+
+
+#middleleft h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 9vw;
+    line-height: 10vw;
+   font-weight: 500;
+    text-transform: uppercase;
+  
+    
+}
+
+#middleleft span{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+   gap: 2vw;
+    
+}
+#middleleft p{
+   font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+}
+
+
+#middleright{
+    width: 35%;
+  
+    
+}
+#rightelem{
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+#middleright h1{
+    height: 250px;
+    width: 250px;
+    font-family: logofont;
+    font-size: 25vw;
+    color: #fe8235;
+}
+
+#btn{
+    background-color: #fe8235;
+    color: white;
+    font-weight: 500;
+    font-family: logofont;
+    letter-spacing: 2px;
+    font-size: 25px;
+    padding: .8vw 2vw;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+
+}
+
+#btn:hover{
+    background-color: #ff690b;
+}
+
+#bottomtext{
+   padding-top: 10vw;
+    width: 100%;
+  min-height: 25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+ 
+  
+
+}
+
+#bottomleft{
+    width: 30%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5vw;
+
+
+}
+
+#leftimg{
+    width: 100%;
+    height: 25vw;
+    border-radius: 30px;
+    padding: 0px 5px;
+    /* padding-bottom: 15px; */
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+#leftimg h3{
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    font-family: logofont;
+    color: white;
+}
+
+#leftimg img{
+    width: 100%;
+    height: 80%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius:30px ;
+    -o-object-position: 0px 0px;
+       object-position: 0px 0px;
+}
+
+#leftbuttons{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.ri-emotion-happy-line{
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+#btn2{
+   
+    width: 200px;
+    height: 50px;
+    
+    background-color: #fe8235;
+    color: white;
+    font-size: 35px;
+    border-radius: 50px;
+    border: none;
+    font-family: logofont;
+
+}
+
+#btn3{
+    width: 400px;
+    height: 50px;
+    
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+    font-family: logofont;
+}
+
+#bottomright{
+    width: 65%;
+    height: 35vw;
+    background-color: black;
+    border-radius:50px ;
+    padding: 5px 5px;
+    position: relative;
+}
+
+#rightimg{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 45px;
+    position: relative;
+   
+}
+
+#righttext{
+    position: absolute;
+    margin: -5px -5px;
+    padding: 10px 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    z-index: 99;
+   
+}
+
+#righttext h2{
+    font-family: logofont;
+    color: rgba(255, 255, 255, 0.312);
+    text-transform: uppercase;
+font-size: 5vw;
+}
+
+#rightimg img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 40px;
+}
+
+#shadoweffect{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background: -webkit-gradient(linear,left top, left bottom,from(transparent),to(black));
+    background: -o-linear-gradient(transparent,black);
+    background: linear-gradient(transparent,black);
+    bottom: 0;
+    border-radius: 45px;
+}
+
+#brands{
+    width: 100%;
+    height: 18vw;
+  
+    display: -webkit-box;
+  
+    display: -ms-flexbox;
+  
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.logos{
+    width: 15vw;
+    height:10vw;
+    
+}
+
+.logos img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+  
+}
+
+.inverted{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+}
+
+#facilities{
+    width: 100%;
+    min-height: 35vw;
+    padding: 0vw 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+#facilityhead{
+    width: 100%;
+    height: 10vw;
+  
+    color: white;
+}
+
+#facilityhead h1{
+    font-family: logofont;
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+#facilityhead p{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+#facilitycards{
+    width: 100%;
+    height: 23vw;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.cards{
+    width: 25%;
+    height: 100%;
+    background-color: #222;
+    border-radius: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 3vw 3vw;
+    color: white;
+}
+
+.cards h1{
+    text-transform: uppercase;
+    font-family: logofont;
+    font-size: 3vw;
+}
+
+.cards p{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+}
+
+.ri-artboard-fill{
+    font-size: 5vw;
+    color: #535353;
+}
+
+.ri-team-fill{
+    font-size: 5vw;
+    color: #535353;
+}
+
+.ri-calendar-todo-fill{
+    font-size: 5vw;
+    color: #535353;
+}
+
+#card1{
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#page3heading{
+    width: 100%;
+    color: white;
+    font-size: 3vw;
+    font-family: logofont;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#page3nav{
+    width: 100%;
+    color: #535353;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: logofont;
+    text-transform: uppercase;
+    font-size: 2vw;
+    gap: 1.5vw;
+    margin-top: 2vw;
+}
+
+#page3nav h3:hover{
+    color: white;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #fe8235;
+            text-decoration-color: #fe8235;
+    text-underline-offset: 15px;
+ 
+}
+
+#navcontent{
+    width: 100%;
+    /* height: 100%; */
+    padding: 5vw 5vw;
+}
+
+#content1{
+    width: 30vw;
+    height: 25vw;
+    background-color: white;
+    border-radius: 50px;
+    padding: .5vw .5vw;
+    opacity: 0;
+}
+
+#content1 img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 45px;
+
+}
+
+#content1card{
+    width: 10vw;
+    height: 25vw;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 40px;
+    background-color: #222;
+
+}
+
+#description{
+    width: 30%;
+    height: 50%;
+    color: white;
+    opacity: 0;
+}
+
+#description h3{
+    font-family: logofont;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+
+#description p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 1vw;
+}
+
+#title{
+    font-family: logofont;
+    text-transform: uppercase;
+    font-size: 3vw;
+    color: white;
+    rotate: -90deg;
+   
+}
+
+#content1card:hover{
+    width: 60vw;
+    background-color: transparent;
+
+}
+
+#content1card:hover #content1{
+    opacity: 1;
+}
+
+#content1card:hover #description{
+    opacity: 1;
+}
+
+#content1card:hover #title{
+    display: none;
+}
+
+#content1card:hover .ri-arrow-up-line{
+    display: none;
+}
+
+#page4{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+#quote{
+    position: relative;
+    width: 100%;
+ 
+   height: 30vw;
+    
+    color: white;
+    font-family: logofont;
+    text-transform: uppercase;
+    font-size: 5vw;
+    text-align: center;
+}
+#quotetext{
+    width: 100%;
+    height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    position: absolute;
+   
+}
+
+#quotebackground{
+    width: 100%;
+    height: 100%;
+font-family: logofont;
+color: #fe8235;
+font-size: 15vw;
+text-align: right;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: end;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+-webkit-box-align: end;
+    -ms-flex-align: end;
+        align-items: end;
+
+}
+
+#trainers{
+    margin-top: 5vw;
+    width: 100%;
+    min-height: 80vw;
+   
+    display: -webkit-box;
+   
+    display: -ms-flexbox;
+   
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 2vw;
+}
+
+#trainerleft{
+    
+    width: 50%;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    /* justify-content: space-between; */
+    gap: 2vw;
+
+
+   
+}
+
+#trainerright{
+    position: relative;
+    width: 50%;
+   
+
+    display: -webkit-box;
+   
+
+    display: -ms-flexbox;
+   
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    /* justify-content: space-evenly; */
+    gap: 2vw;
+    top: 100px;
+}
+
+.trainerdetails{
+    position: relative;
+    width: 30vw;
+    height:35vw;
+  /* padding: 1vw 1vw; */
+    border-radius: 50px;
+    background-color: white;
+    
+}
+
+.trainerdetails img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 45px;
+    -o-object-position: -180px 0px;
+       object-position: -180px 0px;
+    border: 10px solid white;
+   
+}
+
+
+
+.trainername{
+    width: 100%;
+    height: 35vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+ color: white;
+    font-family: logofont;
+    font-size: 3vw;
+    position: absolute;
+    padding: 1vw 2vw;
+    text-transform: uppercase;
+}
+
+.trainername p{
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.black{
+   top: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border-radius: 40px;
+background: -webkit-gradient(linear,left top, left bottom,from(transparent),to(black));
+background: -o-linear-gradient(transparent,black);
+background: linear-gradient(transparent,black);
+    position: absolute;
+    opacity: 0;
+}
+
+.trainerdetails:hover .black{
+opacity: .4;
+}
+
+.trainerdetails:hover img{
+    border: 10px solid #fe8235;
+    }
+
+
+#page5{
+    width: 100%;
+    height: 100vh;
+  
+    display: -webkit-box;
+  
+    display: -ms-flexbox;
+  
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#plandetails{
+    margin-top: 2vw;
+    width: 95%;
+padding: 1vw 1vw;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1vw;
+}
+
+#plandetails h3{
+    font-family: logofont;
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+
+#plandetails p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: .9vw;
+    font-weight: 700;
+
+}
+
+#plans{
+    width: 95%;
+    min-height: 80%;
+    background-color: #222;
+    border-radius: 50px;
+    padding: 4vw 0vw;
+    color: #535353;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+ 
+}
+
+#plan1{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+   
+    
+}
+#plan1left{
+    width: 75%;
+    height: 8vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  
+    padding: 0vw 2vw;
+}
+#plan1left ul{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    gap: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#plan1right p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+#plan1:hover{
+    color: white;
+}
+
+#planline{
+    width: 95%;
+    height: 1px;
+    background-color: #535353;
+    margin: .3vw 0vw;
+}
+
+#page6{
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+#linkoptions{
+    width: 95%;
+    height: 100%;
+}
+
+.link{
+width: 100%;
+height: 13vw;
+
+/* padding: 1vw 2vw; */
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+position: relative;
+}
+
+#linkleft{
+    width: 75%;
+    height: 100%;
+    font-family: logofont;
+    font-size: 4vw;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+#linkright{
+    width: 10%;
+    height: 100%;
+    color: white;
+    font-size: 10vw;
+    
+    
+}
+
+#linkbackground{
+    width: 100%;
+    height: 100%;
+
+    
+    
+}
+
+#linktext{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+ 
+}
+
+#linkline{
+    width: 95%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: .5vw;
+}
+
+#contact{
+    width: 100%;
+    height: 20vw;
+    color: white;
+    font-family: logofont;
+    font-size: 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    text-transform: uppercase;
+  
+}
+
+#followcursor{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: 0;
+    position: relative;
+    mix-blend-mode: darken;
+}
+
+#star{
+    text-align: center;
+}
+
+#freebtn{
+    margin-top: 5px;
+    background-color: #000000;
+    color: rgb(255, 208, 0);
+    font-weight: 500;
+    font-family: logofont;
+    letter-spacing: 2px;
+    font-size: 25px;
+    padding: .8vw 2vw;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+ 
+
+}
+
+#freepass{
+    overflow: hidden;
+    
+    height: 58px;
+  
+}
+
