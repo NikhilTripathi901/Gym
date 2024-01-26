@@ -10,14 +10,24 @@
     href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
     rel="stylesheet"
 />
-    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Fira+Sans:wght@700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="wrapper">
 
-  
+  <div id="loader">
+    <h3>get</h3>
+    <h3>in</h3>
+    <h3>shape.</h3>
+  </div>
   <div id="main">
     <div id="workingarea">
+       
+        <div id="navtop">
+            <div id="cursorfollower"></div>
+        </div>
         <nav id="navbar">
            
             <div id="navleft"><h3>Rhinos Gym</h3></div>
@@ -28,6 +38,7 @@
                 <h4>Services</h4>
                 <h4>Class Schedules</h4>
                 <h4>Contact</h4>
+                <i class="ri-menu-line"></i>
             </div>
         </nav>
 
@@ -56,7 +67,7 @@
             <div id="bottomtext">
                 <div id="bottomleft">
                     <div id="leftimg">
-                        <img src="images/img1.webp" alt="">
+                        <img src="/images/img1.webp" alt="">
                         <h3>Reach your body goals</h3>
                     </div>
                     <div id="leftbuttons">
@@ -73,7 +84,7 @@
                     </div>
                     <div id="rightimg">
                         <div id="shadoweffect"></div>
-                        <img src="/images/img2.webp" alt="">
+                        <img src="/images/img2.webp" alt="" id="righthoverimg">
                     </div>
                    
                 </div>
@@ -81,6 +92,7 @@
             </div>
         </div>
     </div>
+
 
     <div id="brands">
         <div class="logos">
@@ -96,6 +108,8 @@
             <img src="/images/reebok.webp" alt="">
         </div>
     </div>
+  
+
 
     <div id="facilities">
         <div id="facilityhead">
@@ -107,16 +121,21 @@
                 <i class="ri-artboard-fill"></i>
                 <h1>class</h1>
                 <p>Our facilities help you get the maximum exercise and experience in gym</p>
+                <button id="facilitybtn">Discover more</button>
             </div>
             <div class="cards" id="card2">
                 <i class="ri-team-fill"></i>
                 <h1>Club</h1>
                 <p>our club has state of the art fitness equipment that will take your workout to the next level</p>
+                <button id="facilitybtn">Discover more</button>
+                
             </div>
             <div class="cards" id="card3">
                 <i class="ri-calendar-todo-fill"></i>
                 <h1>Timetable</h1>
                 <p>Looking for a class that fits your schedule?We have plenty of time options to suit you</p>
+                <button id="facilitybtn">Discover more</button>
+            
             </div>
         </div>
     </div>
@@ -210,7 +229,7 @@
             <h3>choose your plan</h3>
             <p>choose the plan that suits you best</p>
             <div id="plans">
-                <div id="plan1">
+                <div class="plan1" id="starter">
                     <div id="plan1left">
                         <h3>starter fitness program</h3>
                         <ul>
@@ -219,12 +238,18 @@
                             <li>01 bottle of protein</li>
                         </ul>
                     </div>
+                    <div class="planprice" id="starterplan">
+                        <h6>⚫</h6>
+                        <h4>Start from</h4>
+                        <h3>$102</h3>
+                        <h5>/month</h5>
+                    </div>
                     <div id="plan1right">
                         <p>Basic plan</p>
                     </div>
                 </div>
 <div id="planline"></div>
-                <div id="plan1">
+                <div class="plan1" id="basic">
                     <div id="plan1left">
                         <h3>beginner fitness program</h3>
                         <ul>
@@ -234,12 +259,18 @@
                             <li>access to videos</li>
                         </ul>
                     </div>
+                    <div class="planprice" id="basicplan">
+                        <h6>⚫</h6>
+                        <h4>Start from</h4>
+                        <h3>$200</h3>
+                        <h5>/month</h5>
+                    </div>
                     <div id="plan1right">
                         <p>Professional program</p>
                     </div>
                 </div>
                 <div id="planline"></div>
-                <div id="plan1">
+                <div class="plan1" id="pro">
                     <div id="plan1left">
                         <h3>advance fitness program</h3>
                         <ul>
@@ -248,6 +279,12 @@
                             <li>01 bottle of protein</li>
                             <li>and more</li>
                         </ul>
+                    </div>
+                    <div class="planprice" id="proplan">
+                        <h6>⚫</h6>
+                        <h4>Start from</h4>
+                        <h3>$300</h3>
+                        <h5>/month</h5>
                     </div>
                     <div id="plan1right">
                         <p>Advance plan plan</p>
@@ -260,13 +297,13 @@
 
     <div id="page6">
         <div id="linkoptions">
-            <div class="link">
+            <div class="link" id="link1">
                 <div id="linktext">
                     <div id="linkleft">
                         <h3>get a fit lifestyle</h3>
                         <h3>and easily fun here</h3>
                     </div>
-                    <div id="linkright"><i class="ri-arrow-right-up-line"></i></div>
+                    <div class="linkright" id="link1right"><i class="ri-arrow-right-up-line"></i></div>
                 </div>
                 
                 <div id="linkbackground">
@@ -274,13 +311,13 @@
                 </div>
             </div>
 <div id="linkline"></div>
-            <div class="link">
+            <div class="link" id="link2">
                 <div id="linktext">
                     <div id="linkleft">
                         <h3>Feel great</h3>
                         <h3>Body and Ming</h3>
                     </div>
-                    <div id="linkright"><i class="ri-arrow-right-up-line"></i></div>
+                    <div class="linkright" id="link2right"><i class="ri-arrow-right-up-line"></i></div>
                 </div>
                 
                 <div id="linkbackground">
